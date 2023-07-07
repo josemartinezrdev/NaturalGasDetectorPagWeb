@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/CASA/home.css" />
+    <link rel="stylesheet" href="../CSS/CASA/navbar.css" />
+    <link rel="stylesheet" href="../CSS/CASA/inicio.css" />
+    <link rel="stylesheet" href="../CSS/CASA/componentes.css" />
+    <link rel="stylesheet" href="../CSS/CASA/services.css" />
+    <link rel="stylesheet" href="..//CSS/CASA/contacto.css" />
+    <title>Natural Gas Detector</title>
+    <script defer src="../JAVASCRIPT/home.js"></script>
+  </head>
+
+  <body>
+    <header class="topHeader">
+      <nav class="topNav">
+        <a href="../HTML/home.html" class="logo">
+          <img
+            height="65px"
+            width="65px"
+            src="../IMAGENES/NGD-657 LOGO.png"
+            alt="Logo de la pagina."
+          />
+          <div>
+            Natural Gas <br />
+            Detector
+          </div>
+        </a>
+        <button class="openMenu" aria-label="Abrir menú">
+          <img
+            width="20px"
+            height="20px"
+            src="../IMAGENES/botonMenu.png"
+            alt="Abrir menú"
+          />
+        </button>
+        <ul class="menu">
+          <button class="closeMenu" aria-label="Cerrar menú">
+            <img
+              src="../IMAGENES/cerrarMenu.png"
+              alt="Cerrar menú"
+              height="20px"
+              width="20px"
+            />
+          </button>
+          <li><a href="../HTML/home.html" class="selected">Inicio</a></li>
+          <li><a href="#queEs">¿Qué es?</a></li>
+          <li><a href="#aplicacion">Aplicación</a></li>
+          <li><a href="#autores">Autores</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontalPadding verticalPadding">
+      <section class="inicio">
+        <div class="inicioInfo">
+          <h1 class="inicioTitle">
+            Natural Gas <br />
+            Detector
+          </h1>
+          <p class="inicioDetails">
+            Natural Gas Detector o NGD-657 es un detector de gas natural que
+            cuenta con una alarma y un seguimiento en tiempo real.
+          </p>
+          <button class="inicioBTN">Manual De Uso</button>
+        </div>
+        <span class="inicioImgSection">
+          <a target="_blank" href="../IMAGENES/NGD-657 LOGO.png">
+            <img
+              class="inicioImg"
+              src="../IMAGENES/NGD-657-PNG LOGO.png"
+              alt="Logo NGD-657"
+            />
+          </a>
+          <div class="inicioImgLine"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="services">
+      <img src="../IMAGENES/ONDA.svg" alt="División" class="servicesImg" />
+      <div class="servicesBody">
+        <h2 class="servicesTitle">Servicios</h2>
+        <div class="servicesPadreGrid">
+          <!--Padre-->
+          <div class="empty"></div>
+          <!--Vacío-->
+          <div class="line"></div>
+          <div class="service">
+            <div class="servicesGridTitle">Seguridad</div>
+            <div class="servicesGridName">Seguridad mediante MQ-4</div>
+            <div class="servicesGridWhat">Sensor de gas y alarma</div>
+            <div class="servicesGridInfo">
+              Se hace uso de un sensor de gas con alta precisión a la hora de
+              detectar gas natural. Si es este el caso, una alarma sonará hasta
+              que no se detecte más gas, además de enviar una notificación a la
+              aplicación.
+            </div>
+          </div>
+          <div class="service serviceLeft">
+            <div class="servicesGridTitle">Aplicación</div>
+            <div class="servicesGridName">Natural Gas Detector App</div>
+            <div class="servicesGridWhat">Aplicativo de NGD-657</div>
+            <div class="servicesGridInfo">
+              "El sistema cuenta con su propia aplicación, desde donde puedes
+              recibir notificaciones cuando tienes una fuga de gas, hasta
+              controlar el flujo de gas en tu hogar.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <!--Vacío-->
+          <div class="empty"></div>
+          <!--Vacío-->
+          <div class="line"></div>
+          <div class="service">
+            <div class="servicesGridTitle">Verificación</div>
+            <div class="servicesGridName">Seguimiento WiFi en tiempo real</div>
+            <div class="servicesGridWhat">WiFi</div>
+            <div class="servicesGridInfo">
+              El sistema mantiene un seguimiento en tiempo real mediante WiFi,
+              sosteniendo siempre la comunicación con la aplicación,
+              manteniéndote siempre al tanto de lo que ocurra en tu hogar.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../IMAGENES/ONDA.svg"
+        alt="División"
+        class="servicesImg servicesImgBotton"
+      />
+    </section>
+
+    <div class="horizontalPading verticalPading">
+      <section class="comps">
+        <h2 class="compsTitle">Componentes</h2>
+        <ul class="compsList">
+          <a href="../IMAGENES/SENSOR.jpg" target="_blank">
+            <li class="compsComps">Sensor MQ-4</li>
+          </a>
+          <a href="../IMAGENES/BUZZER.jpg" target="_blank">
+            <li class="compsComps">Buzzer</li>
+          </a>
+          <a href="../IMAGENES/LED.png" target="_blank">
+            <li class="compsComps">Led</li>
+          </a>
+          <a href="../IMAGENES/ESP32.jpg" target="_blank">
+            <li class="compsComps">ESP32</li>
+          </a>
+          <a href="../IMAGENES/ELECTROVAL.jpg" target="_blank">
+            <li class="compsComps">Electroválvula</li>
+          </a>
+          <a href="../IMAGENES/RELEVADOR.png" target="_blank">
+            <li class="compsComps">Relevador</li>
+          </a>
+        </ul>
+      </section>
+    </div>
+
+    <div class="horizontalPading verticalPading" id="contacto">
+      <section class="contact">
+        <h2 class="contactTitle">Contacto</h2>
+        <div class="contactDetails">
+          <div class="contactDetailsGroup">
+            <p class="contactLabel">Dirección</p>
+            <p class="contactText">Barrancabermeja, Colombia</p>
+          </div>
+          <div class="contactDetailsGroup">
+            <p class="contactLabel">Email</p>
+            <p class="contactText">martinez.josed801@gmail.com</p>
+          </div>
+          <div class="contactDetailsGroup">
+            <p class="contactText">Deje su mensaje.</p>
+          </div>
+        </div>
+        <form class="contactForm" name="contact" data-netlify="true">
+          <div class="contactFormGroup">
+            <label for="">Nombre</label>
+            <input required type="text" class="name" id="name" />
+          </div>
+          <div class="contactFormGroup">
+            <label for="">Email</label>
+            <input required type="email" class="email" id="email" />
+          </div>
+          <div class="contactFormGroup">
+            <label for="">Mensaje</label>
+            <textarea required name="mensaje" id="mensaje" rows="6"></textarea>
+          </div>
+          <button class="contactFormSubmit" type="submit">Enviar</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
