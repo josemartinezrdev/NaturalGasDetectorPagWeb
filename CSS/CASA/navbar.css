@@ -1,6 +1,6 @@
 .topHeader {
   box-shadow: 0 4px 5px var(--navbar-shallow-color);
-  position: fixed; /*Fijar la posicion del navbar*/
+  position: fixed; /*Fijar la posición del navbar*/
   background-color: var(--theme-color); /*color de fondo usando variables*/
   left: 0;
   top: 0;
