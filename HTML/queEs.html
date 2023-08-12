@@ -1,11 +1,211 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/CASA/navbar.css" />
+    <link rel="stylesheet" href="../CSS/CASA/home.css" />
+    <link rel="stylesheet" href="../CSS/CASA/footer.css" />
+    <link rel="stylesheet" href="../CSS/QUE_ES/queEs.css" />
+    <link rel="stylesheet" href="../CSS/QUE_ES/queEs2.css" />
+
+
+    <script defer src="../JAVASCRIPT/home.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eb496ab1a0.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>¿Qué es?</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="topHeader">
+      <nav class="topNav">
+        <a href="../HTML/home.html" class="logo">
+          <img
+            height="65px"
+            width="65px"
+            src="../IMAGENES/NGD-657-LOGO-PNG-NEGRO.png"
+            alt="Logo de la pagina."
+          />
+          <div>
+            Natural Gas <br />
+            Detector
+          </div>
+        </a>
+        <button class="openMenu" aria-label="Abrir menú">
+          <img
+            width="20px"
+            height="20px"
+            src="../IMAGENES/botonMenu.png"
+            alt="Abrir menú"
+          />
+        </button>
+        <ul class="menu">
+          <button class="closeMenu" aria-label="Cerrar menú">
+            <img
+              src="../IMAGENES/cerrarMenu.png"
+              alt="Cerrar menú"
+              height="20px"
+              width="20px"
+            />
+          </button>
+          <li><a href="home.html">Inicio</a></li>
+          <li><a href="#queEs" class="selected">¿Qué es?</a></li>
+          <li><a href="#aplicacion">Aplicación</a></li>
+          <li><a href="#autores">Autores</a></li>
+          <li><a href="home.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontalPadding verticalPadding" id="casa">
+      <section class="inicio">
+        <div class="inicioInfo">
+          <h1 class="inicioTitle">¿Qué es?</h1>
+          <p class="inicioDetails">
+            A continuación nos presentamos, que ofrecemos, como funciona y mucho
+            más.
+          </p>
+        </div>
+        <span class="inicioImgSection">
+            <img
+              class="inicioImg"
+              src="../IMAGENES/img1.png"
+              alt="IMG representativa"
+            />
+          </a>
+          <div class="inicioImgLine"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="services">
+        <img src="../IMAGENES/ONDA.svg" alt="División" class="servicesImg" />
+        <div class="servicesBody">
+          <h2 class="servicesTitle">Conócenos</h2>
+        </div>
+
+            <div class="contenido">
+
+                <h3 class="titleTextQE" >¿Qué es?</h3>
+                <br>
+                <div class="flex">
+                <p class="textQE">
+                    Es un sistema de seguridad que utiliza un sensor MQ-4 para detectar la 
+                    presencia <br>de gas natural y gas butano, emitiendo una alerta temprana en caso de fuga. <br>
+                    El sistema cuenta con un monitoreo en tiempo real para la prevención de riesgos y <br>
+                    protección de personas y propiedades.
+                </p>
+
+                <img src="../IMAGENES/representacion.png" alt="" class="imgTextQE">
+            </div>
+            <br>
+            <br>
+            <h3 class="titleTextQE" >¿Cómo funciona?</h3>
+                <br>
+                <div class="flex">
+                <p class="textQE">
+                    El sistema de detección de gas utiliza un sensor MQ-4 para detectar gas natural
+                    y <br>gas butano en una zona de riesgo. Cuando se detecta una fuga, se envía una
+                    señal<br> de alerta a un dispositivo móvil, para que las personas puedan evacuar <br>
+                    el area de manera segura.
+                </p>
+
+                <img src="../IMAGENES/representacion2.png" alt="" class="imgTextQE">
+            </div>
+
+            <br>
+            <br>
+            <h3 class="titleTextQE" >¿Qué nos hace diferentes</h3>
+                <br>
+                <div class="flex">
+                <p class="textQE">
+                    Si bien es cierto que existen algunos detectores de gas, hay algunos aspectos que <br> nos 
+                    hacen ser diferentes al resto como lo es el aplicativo, el cierre automático y la <br>
+                    alerta temprana, pero hay uno que se destaca entre todos los anteriores y es que <br>
+                    nuestro sistema esta desarrollado unicamente por estudiantes de undécimo grado <br>
+                    y a pesar de nuestras limitantes el producto cumple con su objetivo: Salvar vidas.
+                </p>
+                <img src="../IMAGENES/representacion3.png" alt="" class="imgTextQE">
+            </div>
+
+            </div>
+
+        <img
+          src="../IMAGENES/ONDA.svg"
+          alt="División"
+          class="servicesImg servicesImgBotton"
+        />
+      </section>
+
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img
+                src="../IMAGENES/NGD-657-LOGO-PNG-BLANCO.png"
+                alt="Logo NGD-657"
+              />
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>INFORMACIÓN EXTRA</h2>
+          <p>
+            Esta es la pagina oficial del sistema de detección de gas natural:
+            Natural Gas Detector. 🌐
+          </p>
+          <br />
+          <p>Descarga el manual de usuario para más información. 📖</p>
+          <br />
+          <p>
+            Sigue los tips de la aplicación para evitar riesgos en tu propiedad.
+            ✅
+          </p>
+          <br />
+          <p>No olvides las revisiones periódicas. ⚠️</p>
+        </div>
+        <div class="box">
+          <h2>SABER MÁS</h2>
+          <div class="red-social">
+            <a
+              href="https://github.com/josemartinezrdev?tab=repositories"
+              target="_blank"
+              class="fa fa-github"
+              title="Código del Sistema"
+            ></a>
+            <a
+              href="../IMAGENES/NGD_657.apk"
+              class="fa fa-android"
+              title="Descargar Aplicación Movil"
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCa8M5N_jnjcGUwypVTabANw"
+              target="_blank"
+              class="fa fa-youtube"
+              title="Información Gráfica"
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2023 <b>Natural Gas Detector</b> - Todos los Derechos
+          Reservados. <br /><br />
+          Development by Jose Martínez 🔰 <br />
+        </small>
+      </div>
+    </footer>
+  </body>
 </html>
