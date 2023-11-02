@@ -1,72 +1,108 @@
 .services {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .servicesBody {
-    background-color: var(--primary-color);
-    color: var(--text-color-inverse);
-  }
-  
-  .servicesImg {
-    width: 100%;
-    position: relative;
-    top: 2px;
-  }
-  
-  .servicesImgBotton {
-    transform: scaleY(-1);
-    top: -2px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+
+.servicesBody {
+  background-color: var(--primary-color);
+  color: var(--text-color-inverse);
+}
+
+.servicesImg {
+  width: 100%;
+  position: relative;
+  top: 2px;
+}
+
+.servicesImgBotton {
+  transform: scaleY(-1);
+  top: -2px;
+}
+
+.servicesTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 25px;
+}
+
+.contenido {
+  background-color: var(--primary-color);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.titleTextQE {
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.textQE {
+  color: white;
+  font-size: 18px;
+  margin-left: 45px;
+  padding: 5px;
+}
+
+.imgTextQE {
+  width: 130px;
+  height: 130px;
+  margin-left: 180px;
+}
+
+@media (min-width: 350px) {
   .servicesTitle {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
     font-size: 30px;
-    margin: 25px;
+    margin: 35px 0;
   }
-
-  .contenido {
-    background-color: var(--primary-color);
-  }
-
-  .flex{
+  .flex {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
+  .textQE {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+  }
+  .titleTextQE {
+    margin-top: 25px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .imgTextQE {
+    margin-left: 32%;
+    margin-top: 40px;
+  }
+}
 
-  .titleTextQE{
+@media (min-width: 950px) {
+  .servicesTitle {
+    font-size: 50px;
+    margin: 35px 0;
+  }
+  .titleTextQE {
     color: var(--secondary-color);
     font-size: 30px;
     margin-left: 100px;
+    text-align: start;
   }
 
-  .textQE{
+  .textQE {
     color: white;
     font-size: 18px;
     margin-left: 45px;
     padding: 5px;
   }
 
-  .imgTextQE{
+  .imgTextQE {
     width: 130px;
     height: 130px;
     margin-left: 180px;
-
   }
-
-
-  .titleTextCF{
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin-left: 100px;
-  }
-
-  
-  @media (min-width: 950px) {
-    .servicesTitle {
-      font-size: 50px;
-      margin: 35px 0;
-    }
 }

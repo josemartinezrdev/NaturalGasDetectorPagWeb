@@ -42,11 +42,9 @@
   margin: 20px auto;
 }
 
-.verticalPadding{
-
-    padding-bottom: 130px;
-    margin-top: 60px;
-
+.verticalPadding {
+  padding-bottom: 130px;
+  margin-top: 60px;
 }
 
 @media (min-width: 950px) {
