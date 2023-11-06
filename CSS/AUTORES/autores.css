@@ -128,12 +128,41 @@
   width: 50px;
   height: 50px;
   margin: 5px 25px 5px 25px;
+  border-radius: 25%;
 }
 
 .iconImg {
   width: 50%;
   height: 50%;
   display: flex;
+}
+
+.autor {
+  background-color: var(--primary-color);
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.autor:hover {
+  filter: brightness(110%);
+  border-left: 2px solid;
+  border-right: 2px solid;
+
+  .fotoAutorImg {
+    filter: brightness(90%);
+  }
+}
+
+.icon:hover {
+  filter: brightness(160%);
+  .iconImg {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+.icon:active {
+  filter: brightness(30%);
 }
 
 @media (min-width: 950px) {
@@ -168,10 +197,11 @@
   }
 
   .autor {
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 350px;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
+    margin: auto 10px auto 10px;
   }
 
   .infoAutor {
@@ -184,9 +214,5 @@
 
   .socialAutor {
     display: flex;
-  }
-
-  .pie-pagina {
-    margin-top: 20px;
   }
 }
