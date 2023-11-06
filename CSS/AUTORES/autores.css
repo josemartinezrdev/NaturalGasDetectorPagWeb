@@ -118,3 +118,75 @@
   align-items: center;
   margin: 25px;
 }
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #1e71be9e;
+  width: 50px;
+  height: 50px;
+  margin: 5px 25px 5px 25px;
+}
+
+.iconImg {
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+
+@media (min-width: 950px) {
+  .autoresInicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .autoresInicioContend {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-bottom: 50px;
+  }
+
+  .autoresInicioTitle {
+    font-size: 60px;
+  }
+
+  .autoresInicioText {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .autoresInfo {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .autor {
+    max-width: 400px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoAutor {
+    max-height: 400px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .socialAutor {
+    display: flex;
+  }
+
+  .pie-pagina {
+    margin-top: 20px;
+  }
+}
