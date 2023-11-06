@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+/*Dispositivos móviles*/
+
+/*Pagina Principal*/
+
+.autoresInicio {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+}
+
+.autoresInicioImgDiv {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.autoresInicioImg {
+  width: 100%;
+  max-width: 300px;
+}
+
+.autoresInicioContend {
+  width: 60%;
+  justify-content: center;
+  text-align: justify;
+  display: inline;
+}
+
+.autoresInicioTitle {
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: "Noto Sans", "sans-serif";
+  margin-top: 30px;
+}
+
+.autoresInicioText {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  max-width: 450px;
+  margin: 20px auto;
+  margin-bottom: 25px;
+}
+
+/* Fondo azul */
+
+.onda {
+  display: flex;
+  flex-direction: column;
+}
+
+.ondaBody {
+  background-color: var(--primary-color);
+  color: var(--text-color-inverse);
+}
+
+.ondaImg {
+  width: 100%;
+  position: relative;
+  top: 2px;
+}
+
+.ondaImgBot {
+  transform: scaleY(-1);
+  top: -2px;
+}
+
+/* Pagina información */
+
+.fotoAutor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fotoAutorImg {
+  border-radius: 100%;
+  border: 6px solid;
+  border-color: var(--secondary-color);
+}
+
+.nombreAutor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.nombreAutorNombre {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Noto Sans", "sans-serif";
+}
+
+.infoAutor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.socialAutor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
