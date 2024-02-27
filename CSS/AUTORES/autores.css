@@ -85,6 +85,7 @@
 }
 
 .fotoAutorImg {
+  width: 50%;
   border-radius: 100%;
   border: 6px solid;
   border-color: var(--secondary-color);

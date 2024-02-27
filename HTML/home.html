@@ -204,18 +204,36 @@
             <p class="contactText">Deje su mensaje.</p>
           </div>
         </div>
-        <form class="contactForm" name="contact" data-netlify="true">
+        <form class="contactForm" name="contact">
           <div class="contactFormGroup">
             <label for="">Nombre</label>
-            <input required type="text" class="name" id="name" />
+            <input
+              placeholder="Tu nombre..."
+              required
+              type="text"
+              class="name"
+              id="name"
+            />
           </div>
           <div class="contactFormGroup">
             <label for="">Email</label>
-            <input required type="email" class="email" id="email" />
+            <input
+              placeholder="Tu email..."
+              required
+              type="email"
+              class="email"
+              id="email"
+            />
           </div>
           <div class="contactFormGroup">
             <label for="">Mensaje</label>
-            <textarea required name="mensaje" id="mensaje" rows="6"></textarea>
+            <textarea
+              placeholder="Cuéntanos que necesitas..."
+              required
+              name="mensaje"
+              id="mensaje"
+              rows="6"
+            ></textarea>
           </div>
           <button class="contactFormSubmit" type="submit">Enviar</button>
         </form>

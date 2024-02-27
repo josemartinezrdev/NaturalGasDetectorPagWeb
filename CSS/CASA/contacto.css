@@ -51,6 +51,7 @@
 .contactForm textarea {
   height: auto;
   resize: vertical;
+  outline: none;
 }
 
 .contactFormSubmit {
@@ -63,6 +64,13 @@
   border: 1px solid var(--theme-color);
 
   cursor: pointer;
+}
+
+.name {
+  outline: none;
+}
+.email {
+  outline: none;
 }
 
 .contactFormSubmit:hover {
